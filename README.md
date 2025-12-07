@@ -175,4 +175,3 @@ Please open an issue or submit a pull request.
 
 If you found this project helpful, please star ⭐ the repository to show support!
 
-# Vehicle-detection-using-HOG-SVM
