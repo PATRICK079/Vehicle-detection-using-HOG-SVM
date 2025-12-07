@@ -1,8 +1,8 @@
 # Vehicle Detection Using HOG + SVM (Histogram of Oriented Gradients)
 
-This project demonstrates a **classical machine-learning pipeline** for detecting vehicles using **Histogram of Oriented Gradients (HOG)** for feature extraction and a **Support Vector Machine (SVM)** for classification.
+This project demonstrates a **classical machine learning pipeline** for detecting vehicles using **Histogram of Oriented Gradients (HOG)** for feature extraction and a **Support Vector Machine (SVM)** for classification.
 
-The goal is to build a **lightweight, interpretable, and efficient vehicle detection system** that mirrors early perception modules used in **autonomous vehicles (AVs)** and **advanced driver-assistance systems (ADAS)** before deep learning became the dominant approach.
+The goal is to build a **lightweight, interpretable, and efficient vehicle detection system** that mirrors early perception modules used in **autonomous vehicles (AVs)** and **advanced driver assistance systems (ADAS)** before deep learning became the dominant approach.
 
 This project offers hands-on insight into how object detection was traditionally performed using engineered features, providing the foundation for understanding modern perception systems.
 
@@ -15,9 +15,8 @@ To develop a simple, efficient, and interpretable **vehicle detection system** u
 This classical approach provides:
 
 - A **baseline perception model** for autonomous driving research.
-- A lightweight alternative to deep-learning models in computationally constrained environments.
+- A lightweight alternative to deep learning models in computationally constrained environments.
 - A practical demonstration of object detection without neural networks.
-- A framework for comparing classical methods with modern deep-learning pipelines.
 
 ---
 
@@ -78,23 +77,7 @@ The system outputs:
 - Confusion matrix  
 - Cross-validation accuracy  
 
-These metrics ensure that the model is both **accurate and consistent**—critical in AV perception where mistakes can be costly.
-
----
-
-## Results
-
-The optimized HOG + SVM model achieved:
-
-- **Accuracy:** 99%  
-- **Precision:** 0.99  
-- **Recall:** 0.99  
-- **F1-score:** 0.99  
-- **Cross-validation:** 98.89%  
-
-These results demonstrate extremely reliable model performance with very low false positives and false negatives.
-
-This level of performance provides a strong baseline for AV research and classical CV pipelines.
+These metrics ensure that the model is both **accurate and consistent** critical in AV perception where mistakes can be costly.
 
 ---
 
@@ -108,7 +91,6 @@ This level of performance provides a strong baseline for AV research and classic
 However:
 
 - Performance may degrade in complex real-world scenes (shadows, curves, occlusions).
-- Deep learning methods outperform HOG/SVM on large-scale datasets.
 
 ---
 
@@ -129,17 +111,14 @@ Evaluate performance against:
 - SSD  
 - Transformer-based detectors  
 
-### 4. Real-Time Deployment
-Optimize the model for:
-- Embedded boards  
-- Edge computing  
-- In-vehicle systems  
 
-### 5. Simulation Testing
+### 4. Simulation Testing
 Test performance on:
 - CARLA simulator  
 - KITTI dataset  
-- Driving videos  
+- Driving videos
+- Airsim
+- Autoware
 
 ---
 
